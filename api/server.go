@@ -3,6 +3,7 @@ package api
 import (
 	"github.com/gin-gonic/gin"
 	db "github.com/joselimaico/simplebank/db/sqlc"
+	_ "github.com/golang/mock/mockgen/model"
 )
 
 // Server serves HTTP requests for our banking service.
